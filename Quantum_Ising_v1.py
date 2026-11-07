@@ -20,9 +20,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89_loto_2980.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89_loto_plus_1736.csv"),
+    Path("/data/loto7_4716_k89.csv"),
+    Path("/data/loto7_4716_k89_loto_2980.csv"),
+    Path("/data/loto7_4716_k89_loto_plus_1736.csv"),
 )
 
 
@@ -726,13 +726,13 @@ Log legalne mase: -4.615329906492365
 
 
 loto7_4716_k89.csv
-NEXT: 1 5 14 22 27 31 39
+NEXT: 1 x 14 y 27 z 39
 
 loto7_4716_k89_loto_2980.csv
-NEXT: 1 5 16 21 27 29 39
+NEXT: 1 x 16 y 27 z 39
 
 loto7_4716_k89_loto_plus_1736.csv
-NEXT: 1 6 11 18 28 34 38
+NEXT: 1 x 11 y 28 z 38
 """
 
 
@@ -843,25 +843,4 @@ Schrödinger     Evolucija koristi direktni expm, a gradijent odgovarajući Fré
 Provereni su i svi pozivi joint() — Ising, Fourier i Schrödinger verzije prosleđuju logaritme. ODE i PDE prosleđuju verovatnoće svojoj odgovarajućoj funkciji.
 Hronološke granice treninga, validacije i testa pravilno su indeksirane. Završna obuka obuhvata sve istorijske prelaze.
 Konvergencija optimizatora i prolazak ugrađenih provera.
-"""
-
-
-
-
-
-
-"""
-https://medium.com/@_monitsharma/computational-physics-with-python-ising-model-343a5fd1df11  
-
-https://medium.com/@_monitsharma/computational-physics-with-python-ordinary-differential-equation-390a743c5198   
-
-https://medium.com/@_monitsharma/computational-physics-with-python-partial-differential-equations-dd8b6bfa8dce    
-
-https://medium.com/@_monitsharma/computational-physics-with-python-fourier-transform-1f51ce9152f7       
-
-https://medium.com/@_monitsharma/computational-physics-with-python-plotting-and-data-visualization-b61c3eb9ad45   
-
-https://medium.com/@_monitsharma/computational-physics-with-python-optimization-3697c079b6fa   
-
-https://medium.com/@_monitsharma/computational-physics-with-python-quantum-mechanics-9203eb2c27bd
 """
